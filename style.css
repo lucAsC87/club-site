@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    background-color: #3A5743;
+}
+
+.navbar {
+    background-color: #ADE25D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    top: 0;
+    min-width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    font-size: 1rem;
+  }
+
+.crumb {
+    text-decoration: underline;
+    display: inline-block;
+}
+
+#jumbotron {
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+#openings, #events, #map {
+    background-color: #3B7080;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #ADE25D;
+    text-align: right;
+}
+
+@media only screen and (max-width: 480px) {
+   
+    .navbar {
+        display: none;
+    }
+
+    #jumbotron img {
+        display: none;
+    }
+
+    #map {
+        display: none;
+    }
+
+}
